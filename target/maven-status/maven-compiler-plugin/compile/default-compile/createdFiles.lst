@@ -1,0 +1,4 @@
+com\atmecs\test\runner\TestNGRunner.class
+com\atmecs\test\testfunction\SampleTestFunction.class
+com\atmecs\test\testscript\GetUserTest.class
+com\atmecs\test\testsuite\SampleTestSuiteBase.class

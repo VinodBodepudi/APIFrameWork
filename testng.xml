@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ClientName-ModuleName">
+	<suite-files>
+		<suite-file
+			path="./src/main/resources/suitefile/sample.xml" />
+	</suite-files>
+</suite>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Preparing a request]]>
+    </line>
+    <line>
+      <![CDATA[Making POST API call to get single user]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verify Status code: ACTUAL : 201 EXPECTED :201]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Verify firstname of user expected [riyaan01] but found [null]: ACTUAL : null EXPECTED :riyaan01]]>
+    </line>
+    <line>
+      <![CDATA[FAIL : Verify lastname of user expected [sportsman] but found [null]: ACTUAL : null EXPECTED :sportsman]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3849" started-at="2021-04-05T09:21:34Z" finished-at="2021-04-05T09:21:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3849" started-at="2021-04-05T09:21:34Z" finished-at="2021-04-05T09:21:38Z">
+      <class name="com.atmecs.test.testscript.PostUserTest">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.test.testscript.PostUserTest@26aa12dd]" name="preSetup" is-config="true" duration-ms="11" started-at="2021-04-05T09:21:34Z" finished-at="2021-04-05T09:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="testGetUser()[pri:0, instance:com.atmecs.test.testscript.PostUserTest@26aa12dd]" name="testGetUser" duration-ms="3832" started-at="2021-04-05T09:21:34Z" finished-at="2021-04-05T09:21:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Preparing a request]]>
+            </line>
+            <line>
+              <![CDATA[Making POST API call to get single user]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verify Status code: ACTUAL : 201 EXPECTED :201]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Verify firstname of user expected [riyaan01] but found [null]: ACTUAL : null EXPECTED :riyaan01]]>
+            </line>
+            <line>
+              <![CDATA[FAIL : Verify lastname of user expected [sportsman] but found [null]: ACTUAL : null EXPECTED :sportsman]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.test.testscript.PostUserTest@26aa12dd]" name="teardown" is-config="true" duration-ms="0" started-at="2021-04-05T09:21:38Z" finished-at="2021-04-05T09:21:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.atmecs.test.testscript.PostUserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

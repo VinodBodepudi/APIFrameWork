@@ -1,0 +1,5 @@
+2021-04-05 14:51:34,397  INFO [main] PostUserTest:51 - Preparing a request
+2021-04-05 14:51:34,999  INFO [main] PostUserTest:51 - Making POST API call to get single user
+2021-04-05 14:51:37,487  INFO [main] VerificationManager:119 - PASS : Verify Status code Actual value : 201 is same as Expected value: 201
+2021-04-05 14:51:38,223 ERROR [main] VerificationManager:250 - FAIL : Verify firstname of user , expected [riyaan01] but found [null] Actual value : null is not same as Expected value: riyaan01
+2021-04-05 14:51:38,224 ERROR [main] VerificationManager:250 - FAIL : Verify lastname of user , expected [sportsman] but found [null] Actual value : null is not same as Expected value: sportsman
